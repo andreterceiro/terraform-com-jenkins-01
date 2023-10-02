@@ -7,11 +7,10 @@ pipeline {
                 echo 'Hello world'
             }
         }
-        stage('Hello 2') {
+        stage('Terraform') {
             steps {
-                echo 'Hello world 2'
+                sh 'terraform apply -auto-approve'
             }
         }
-
     }
 }
