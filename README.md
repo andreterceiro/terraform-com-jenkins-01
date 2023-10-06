@@ -48,3 +48,7 @@ sudo service jenkins start
 And open [this URL](http://127.0.0.1:8080/login?from=%2F) in the browser.
 
 Follow [this instruction](instruction-password-jenkins.png). The path in the image is "/var/lib/jenkins/secrets/initialAdminPassword".
+
+# Key on AWS
+
+It is obvious that I imediatelly removed the key from AWS... I will update this script in future to use environment variables...
